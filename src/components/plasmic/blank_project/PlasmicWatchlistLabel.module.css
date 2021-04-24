@@ -1,0 +1,16 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 6px;
+  color: #f04747;
+  box-shadow: none;
+  flex-shrink: 0;
+}

@@ -1,0 +1,73 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.buttonBase {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-self: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  padding: 4px;
+  background: transparent;
+}
+.buttonBase > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.buttonBase > :global(.__wab_flex-container) > *,
+.buttonBase > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.root:hover .buttonBase {
+  background: #ffffff14;
+}
+.root:active .buttonBase {
+  background: #ffffff29;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 6.5px;
+  height: 6.5px;
+  color: #ffffff7a;
+  flex-shrink: 0;
+}
+.root:hover .svg {
+  color: #ffffff;
+}
+.root:active .svg {
+  color: #ffffff;
+}
+.box__g3ShL {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.box__cTqIb {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Font Awesome 5 Pro";
+  letter-spacing: 0em;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  width: 12px;
+  flex-shrink: 0;
+}
